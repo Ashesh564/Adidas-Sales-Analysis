@@ -16,7 +16,6 @@ if fl is not None:
     st.write(filename)
     df = pd.read_excel(filename)
 else:
-    os.chdir(r"C:\Users\ASHESH\Downloads")
     df = pd.read_excel("Adidas.xlsx")
     image = Image.open('Adidas_logo.png')
 
